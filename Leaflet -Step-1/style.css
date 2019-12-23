@@ -1,0 +1,28 @@
+/* remove default margin and padding from body */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#title {
+  position:absolute;
+  width:700px;
+  left:0;
+  right:0;
+  margin:0 auto;
+  text-align: center;
+  font-family:monospace;
+  /*font-weight: bold;*/
+  font-size:30px;
+  /*text-transform:uppercase;*/
+  /*letter-spacing: 2px;*/
+  /*text-decoration: underline;*/
+  top:50px;
+  color:white;
+}
+/* set map, body, and html to 100% of the screen size */
+#map,
+body,
+html {
+  height: 100%;
+}
