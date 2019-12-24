@@ -20,7 +20,7 @@ function createFeatures(earthquakeData) {
     coordinates = [earthquakeData[i].geometry.coordinates[1],earthquakeData[i].geometry.coordinates[0]]
     properties = earthquakeData[i].properties;
 
-    var color = "";
+    var color = " ";
     if (properties.mag < 1) {
       color = "hsl(110, 81%, 50%)";
     }
@@ -36,6 +36,12 @@ function createFeatures(earthquakeData) {
     else if (properties.mag < 5) {
       color = "rgb(204, 14, 14)";
     }
+    else if (properties.mag < 6) {
+      color = "rgb(253, 8, 8)";
+
+    }
+    
+  
 
     // Add circles to map
     var myCircle = L.circle(coordinates, {
@@ -55,8 +61,8 @@ function createFeatures(earthquakeData) {
   
   // Sending our earthquakes layer to the createMap function
   createMap(earthquakes);
-}
 
+}
 function createMap(earthquakes) {
 
   // Define streetmap and darkmap layers
