@@ -1,4 +1,4 @@
-# leaflet-challenge
+# leaflet-challenge ![leaflet_logo](https://user-images.githubusercontent.com/54033512/71549691-5add5580-2987-11ea-9b2c-f04ac1453f35.png)
 I created a a map using Leaflet that plots all earthquakes from the past 30 days using the the US Geological Survey earthquake data, which is updated every 5 minutes based on an earthquake's longitude and latitude. The data markers reflect the magnitude of the earthquake in both size and color. In other words, earthquakes with higher magnitudes appear larger in radius and darker in color. When a user clicks on any marker (i.e., a recorded earthquake), a popup appears which displays the following useful information about that particular earthquake: 
 * location
 * magnitude
