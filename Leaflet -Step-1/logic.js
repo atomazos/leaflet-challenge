@@ -41,7 +41,7 @@ function createFeatures(earthquakeData) {
 
     }
     
-  
+    
 
     // Add circles to map
     var myCircle = L.circle(coordinates, {
