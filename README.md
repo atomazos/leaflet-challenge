@@ -6,5 +6,6 @@ I created a a map using Leaflet that plots all earthquakes from the past 30 days
 * coordinates
 
 The default map is set to Dark Map mode (below), but you can choose to view it from 3 different vantagepoints (i.e., base maps). Click on the images below for a larger view.
-![screen_shot_leaflet](https://user-images.githubusercontent.com/54033512/71549487-f076e600-2983-11ea-8445-44f892b249ab.png)
+![screen_shot_darkmap](https://user-images.githubusercontent.com/54033512/71549617-0a192d00-2986-11ea-97c6-522b23a975bb.png)
+![screen_shot_satellite](https://user-images.githubusercontent.com/54033512/71549619-0be2f080-2986-11ea-9c92-2b004150c83c.png)
 
