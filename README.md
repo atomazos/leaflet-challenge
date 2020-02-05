@@ -5,8 +5,8 @@ I created a a map using Leaflet that plots all earthquakes from the past 30 days
 * time and date
 * coordinates
 
-Please access website here to see for yourself earthquakes from the past 30 days: 
-
+Please click here to see the earthquakes from the past 30 days: 
+https://atomazos.github.io/leaflet-challenge/Leaflet
 
 
 The default map is set to Dark Map mode (below), but you can choose to view it from 3 different vantagepoints (i.e., base maps). Click on the images below for a larger view.
