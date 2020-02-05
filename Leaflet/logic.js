@@ -49,11 +49,14 @@ function createFeatures(earthquakeData) {
       color: color,
       fillColor: color,
       radius: (properties.mag * 15000)
-    }).bindPopup("<h3>" + properties.place + "</h3> <hr> <h3>Magnitude: " + properties.mag.toFixed(1) + "</h3>" + "<hr> <h4>Occurence: " +  new Date(properties.time) + "</h4>" + "</h3> <hr> Coordinates:" + coordinates + "</h3>") ;
+    }).bindPopup("<h3>" + properties.place + "</h3> <hr> <h3>Magnitude: " + properties.mag + "</h3>" + "<hr> <h4>Occurence: " +  new Date(properties.time) + "</h4>" + "</h3> <hr> Coordinates:" + coordinates + "</h3>");
     //Add the cricle to the array
     circleArray.push(myCircle);
   }
 
+
+
+  
 
   //Create the layer for the circles
   var earthquakes = L.layerGroup(circleArray);
