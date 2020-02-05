@@ -4,6 +4,7 @@ I created a a map using Leaflet that plots all earthquakes from the past 30 days
 * magnitude
 * time and date
 * coordinates
+
 Please click here to see the earthquakes from the past 30 days: 
 
   **https://atomazos.github.io/leaflet-challenge/Leaflet**
